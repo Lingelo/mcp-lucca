@@ -8,7 +8,9 @@
     "dev": "node -r ts-node/register --env-file=.env src/index.ts --trace-warnings"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.7.0"
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "axios": "^1.8.4",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.11",
@@ -16,4 +18,3 @@
     "typescript": "^5.8.2"
   }
 }
-
