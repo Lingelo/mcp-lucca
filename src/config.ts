@@ -16,8 +16,8 @@ interface Config {
 
 export const config: Config = {
     server: {
-        name: process.env.SERVER_NAME ?? 'lucca-mcp',
-        version: process.env.SERVER_BERSION ?? '1.0.0',
+        name: process.env.SERVER_NAME ?? 'mcp-rest-server',
+        version: process.env.SERVER_VERSION ?? '1.0.0',
     },
     logs: {
         level: (process.env.LOG_LEVEL as 'info' | 'debug' | 'warn' | 'error') ?? 'info',

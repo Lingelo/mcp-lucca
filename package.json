@@ -5,12 +5,13 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "dev": "node -r ts-node/register --env-file=.env src/index.ts --trace-warnings"
+    "server": "node -r ts-node/register --env-file=.env src/server.ts --trace-warnings"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.7.0",
+    "@modelcontextprotocol/sdk": "^1.10.0",
     "axios": "^1.8.4",
-    "winston": "^3.17.0"
+    "winston": "^3.17.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^22.13.11",
